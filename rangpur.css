@@ -1,0 +1,221 @@
+
+
+
+.header-container span:hover{
+    color: red;
+}
+.menu{
+
+    background: #F2F2F2;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.menu ul li{
+ margin: 5px;
+ padding: 5px;
+ 
+}
+.menu ul li a{
+    text-decoration:none;
+    color: rgb(15, 15, 15);
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+ .menu ul li:hover .sub-menu-1{
+
+     display: block;
+     position: absolute;
+    background: white;
+    margin-top:  15px; 
+    margin-left: -15px;
+    z-index: 1;
+
+}
+.menu ul li:hover .sub-menu-1 ul{
+    display: block;
+
+   
+
+
+}
+
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container img{
+    margin: 50px;
+}
+
+
+
+
+.logo{
+height: 100px;
+width: 100px;
+
+}
+
+.card-notice{
+    box-shadow: 2px 0 5px 3px #202020;
+    width: 100%;
+    height: 250px;
+    margin: 15px;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+
+.card-container{
+
+display: flex;
+width: 100%;
+height: 200px;
+
+}
+ .card{
+
+ border: 2px solid rgba(0,0,0,0.2) ;
+ box-shadow: 2px 14px 13px 2px rgba(0,0,0,0.2);
+ width: 100%;
+  margin-left: 40px;
+ }
+.container{
+   margin-top: 2px;
+   margin-left: 50px;
+    padding:30px;
+}
+
+ .card-3 {
+    box-shadow: 2px 14px 13px 2px rgba(0,0,0,0.2);
+    float: right;
+   width:25%;
+   margin: 10px;
+  
+}
+ .card-title-1 {
+    background: #609513;
+
+}
+.card-body-1{
+ background: whitesmoke;
+}
+
+
+.card-1{
+    width: 500px;
+    height: 100px;
+    
+    
+}
+
+
+<!--video-->
+.video {
+
+
+    text-align: center;
+}
+
+.container-1 {
+    width: 500px;
+    border: 5px 5px 5px 5px solid black;
+}
+.card-3 {
+    box-shadow: 2px 14px 13px 2px rgba(0,0,0,0.2);
+    width: 10%;
+    margin: 10px;
+}
+
+
+.map{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.map-card{
+    border: 15px black;
+    box-shadow: 2px 14px 13px 2px rgba(0,0,0,0.2);
+    width: 50%;
+    height: 50%;
+   margin-top: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+}
+
+.fotter{
+     display: flex;
+     justify-content: space-between;
+    background: #EBEBEB;
+    
+  
+    color: black;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1000px 400px;
+    grid-gap: 80px;
+   background-color: #FFFFFF;
+    padding: 10px;
+}
+
+ .grid-container-2{
+     display: grid;
+     grid-template-columns: 550px  550px 900px;
+     grid-gap: 10px;
+     background-color: white;
+ }
+    
+ 
+
+ .container-grid-p{
+     display: grid;
+     grid-template-columns: 480px  480px 400px;
+     grid-gap: 10px;
+     padding: 30px;
+      
+      
+ }
+
+
+
+
+
+ .item-1{
+    grid-row-start:1;
+    grid-row-end:1;
+}
+
+
+.item-2{
+    grid-row-start:1;
+    grid-row-end:1;
+}
+
+
+
+
+
+
+
+
+ .item-3{
+    
+    grid-row-start:1;
+    grid-row-end:5;
+}
+
